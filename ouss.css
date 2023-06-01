@@ -161,7 +161,17 @@ body{
 .footer .copyright{
 	color: #999;	
 }
-@media only screen and (max-width: 700px){
+@media (max-width: 780px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .side {
+        display: none;
+    }
 	.wrapper .header .top,
 	.wrapper .signup{
 		background: #fafafa;
